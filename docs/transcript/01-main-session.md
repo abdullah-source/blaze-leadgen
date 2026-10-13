@@ -1758,7 +1758,7 @@ data/cache/pages/
 ~~~~
 </details>
 
-<details><summary>Tool call: Bash - Prune LLM cache, append round-2 prompts and Loom outline, commit, push to GitHub, verify (21:26:07 UTC)</summary>
+<details><summary>Tool call: Bash - Prune LLM cache, append round-2 prompts, commit, push to GitHub, verify (21:26:07 UTC)</summary>
 
 ~~~~text
 cd "<workspace>/blaze-leadgen" && VENV="<scratchpad>/venv/bin/python" && echo "--- prune LLM cache to exactly the entries that produce leads_final.csv ---" && "$VENV" - <<'PYEOF'
