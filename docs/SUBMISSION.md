@@ -18,9 +18,11 @@ signal, evidence URL, fit score, subject line and opener).
 
 ## Roughly how long did the build take?
 
-About 2.5 hours end to end: ~15 min deciding A vs B with a three-agent panel, ~1.5 h
-building and iterating on the signal extractor and prompt, ~30 min on README, tests and
-the repo.
+About 50 minutes of agent build time, wall-clock, from the first prompt to the pushed repo
+(the transcript timestamps show 20:39 to 21:26 UTC): roughly 5 minutes deciding A vs B with
+the three-agent panel, 35 minutes building and iterating on the signal extractor, prompt
+and QA loop, and 10 minutes on README, tests and the push. Add my own time reviewing the
+output, correcting course, and recording the Loom: [fill in, e.g. ~1 hour].
 
 ## Which AI tools did you use, and what were your key prompts?
 
@@ -51,7 +53,19 @@ Key prompts (verbatim in `docs/PROMPTS.md`):
 
 ## Links to AI chat transcripts
 
-(optional: paste the Claude Code session share link here)
+The full Claude Code session that built this (every prompt, every tool call, the three
+perspective agents' transcripts) is exported into the repo:
+
+- https://github.com/abdullah-source/blaze-leadgen/blob/main/docs/transcript/README.md
+
+## Links to the AI tools used
+
+- Claude Code (the build agent, Claude Fable 5.1): https://claude.com/claude-code
+- Claude Code headless mode, `claude -p`, used as the key-free LLM backend: https://code.claude.com/docs/en/headless
+- Claude Sonnet 4.6, the model that wrote the 37 openers: https://www.anthropic.com/claude/sonnet
+- Claude Fable 5.1, the orchestrating model: https://www.anthropic.com/claude/fable
+- Apify Google Maps Scraper, the data pull: https://apify.com/compass/crawler-google-places
+- Jina Reader, the homepage fallback for bot-walled sites (not AI, but part of the pipeline): https://jina.ai/reader
 
 ## What would you do with more time? (<=150 words)
 
