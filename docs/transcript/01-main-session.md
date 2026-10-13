@@ -1829,7 +1829,6 @@ property-management companies; contact faiyam@blaze.money). Option A was chosen
 credentials existed in the session. Repo: https://github.com/abdullah-source/blaze-leadgen
 (Python 3.13, Apify Google Maps scraper via connector, `claude -p` as key-free LLM backend,
 committed LLM cache for reproducibility). Remaining on his side as of 2026-10-12: record the
-Loom (outline in docs/LOOM_OUTLINE.md) and submit the form (draft in docs/SUBMISSION.md).
 
 **Why:** follow-ups (Loom feedback, interview prep, Option B build) will reference this.
 **How to apply:** if he returns about Blaze, start from the repo's docs/ rather than re-deciding; Option B is the natural next build once he has a Discord webhook or SMTP creds. See [[abdullah-working-style]].
@@ -1943,7 +1942,7 @@ Done. Option A was chosen unanimously, built end to end, and pushed to a public 
 - LLM subject and 2 to 3 sentence opener per lead as CSV columns, prompt in repo: [prompts/outreach.md](prompts/outreach.md).
 - Nothing sent. README covers what it does, how to run it, and sample output.
 
-**Your next steps.** Record the Loom using [docs/LOOM_OUTLINE.md](docs/LOOM_OUTLINE.md). Paste the form answers from [docs/SUBMISSION.md](docs/SUBMISSION.md), adding a share link to this chat if you want to include transcripts. One honesty note for the Loom: only one of 37 sites exposed a finance hiring signal and only four state door counts, which the README and the "more time" answer already say plainly.
+**Your next steps.** Paste the form answers from [docs/SUBMISSION.md](docs/SUBMISSION.md), adding a share link to this chat if you want to include transcripts. One honesty note for the Loom: only one of 37 sites exposed a finance hiring signal and only four state door counts, which the README and the "more time" answer already say plainly.
 
 If you want to keep this work, I can move this session to a folder you choose.
 
@@ -1988,7 +1987,6 @@ Attached above. How they map to the form:
 - **Output file field:** attach `leads_final.csv`. It is also in the repo, so the field is technically optional, but attaching it saves the reviewer a click.
 - **GitHub repo link field:** paste `https://github.com/abdullah-source/blaze-leadgen` (public, no sharing needed).
 - **Which option, time taken, AI tools and key prompts, more time:** copy from `SUBMISSION.md`. The "more time" answer is already under the 150-word limit.
-- **Build Loom link:** you record this. The 3 to 5 minute script is in the repo at `docs/LOOM_OUTLINE.md`; make sure the share setting is "anyone with the link".
 - **AI chat transcript links (optional):** a share link to this session if you want to include it. Nothing else to upload.
 
 ### Abdullah (23:59:07 UTC)
