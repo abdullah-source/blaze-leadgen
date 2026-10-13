@@ -1,9 +1,10 @@
-PY ?= python3
+# use the venv created by `make setup` when it exists, else system python3
+PY ?= $(shell [ -x .venv/bin/python ] && echo .venv/bin/python || echo python3)
 
 .PHONY: setup snapshot pull enrich generate qa test all clean-cache
 
 setup:            ## create venv + install deps
-	$(PY) -m venv .venv && .venv/bin/pip install -q -r requirements.txt && echo "now: source .venv/bin/activate"
+	python3 -m venv .venv && .venv/bin/pip install -q -r requirements.txt && echo "venv ready; make targets will use it automatically"
 
 snapshot:         ## show what is in the committed Google Maps snapshot
 	$(PY) src/fetch_maps.py

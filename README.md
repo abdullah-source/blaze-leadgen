@@ -38,7 +38,7 @@ committed, so the whole thing rebuilds offline and byte-identically.
 
 ```bash
 git clone https://github.com/abdullah-source/blaze-leadgen && cd blaze-leadgen
-make setup && source .venv/bin/activate
+make setup          # creates .venv; every make target uses it automatically
 make test        # unit tests: signal extractor, fit rubric, QA checks
 make snapshot    # what is in data/raw/maps_phoenix.json
 make enrich      # ~20 s with the page cache, ~1 min cold (needs network for the websites)
